@@ -1,5 +1,15 @@
 
+IoC intro
+DI intro
+why?
+what are out motivations?
 
+We can extract from this some coding guilines and bhehaviors
+
+
+
+
+git add . vs git add -A
 
 
 Fantasy Magician Theme
