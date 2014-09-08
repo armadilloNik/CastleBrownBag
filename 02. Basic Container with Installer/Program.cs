@@ -33,7 +33,6 @@ namespace _02.Basic_Container_with_Installer
         }
     }
 
-
     public interface IFantasyMagician
     {
         string Name { get; }
