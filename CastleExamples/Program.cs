@@ -5,7 +5,6 @@ using Castle.Windsor;
 
 namespace CastleExamples
 {
-
     class Program
     {
         static void Main(string[] args)
@@ -23,7 +22,6 @@ namespace CastleExamples
             Console.ReadLine();
         }
     }
-
   
     public interface IFantasyMagician
     {
