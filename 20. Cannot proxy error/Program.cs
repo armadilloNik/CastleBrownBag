@@ -19,7 +19,7 @@ namespace CastleExamples
             container.Register(Component.For<IFactory>().AsFactory());
 
             var factory = container.Resolve<IFactory>();
-            var magician = factory.Create<IFantasyMagician>();  
+            var magician = factory.Create<IFantasyMagician>();
 
             Console.WriteLine("The magician's name is: {0}", magician.Name);
 
@@ -29,7 +29,7 @@ namespace CastleExamples
         }
     }
 
-    public interface IFactory
+    internal interface IFactory
     {
         T Create<T>();
         void Release(object value);
