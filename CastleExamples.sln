@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Configuration File", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Configuration with Installer", "04. Configuration with Installer\04. Configuration with Installer.csproj", "{145C6DF6-553D-40E7-A6D5-0C5C2B778DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Marker Interface", "05. Marker Interface\05. Marker Interface.csproj", "{823B3B57-7333-4B98-811D-386BA968BB08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{145C6DF6-553D-40E7-A6D5-0C5C2B778DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{145C6DF6-553D-40E7-A6D5-0C5C2B778DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{145C6DF6-553D-40E7-A6D5-0C5C2B778DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823B3B57-7333-4B98-811D-386BA968BB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823B3B57-7333-4B98-811D-386BA968BB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823B3B57-7333-4B98-811D-386BA968BB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823B3B57-7333-4B98-811D-386BA968BB08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
