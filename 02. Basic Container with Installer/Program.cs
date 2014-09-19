@@ -4,7 +4,7 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 
-namespace _02.Basic_Container_with_Installer
+namespace CastleExamples
 {
     class Program
     {

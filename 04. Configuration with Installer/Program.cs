@@ -1,14 +1,18 @@
 ﻿using System;
+using Castle.MicroKernel.Registration;
+using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using Castle.Windsor.Configuration.Interpreters;
 
 namespace CastleExamples
 {
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             var container = new WindsorContainer(new XmlInterpreter());
+
+          //  container.Install(new HighFantasyInstaller());
 
             var magician = container.Resolve<IFantasyMagician>();
 
@@ -17,6 +21,14 @@ namespace CastleExamples
             container.Dispose();
 
             Console.ReadLine();
+        }
+    }
+
+    public class HighFantasyInstaller : IWindsorInstaller
+    {
+        public void Install(IWindsorContainer container, IConfigurationStore store)
+        {
+            container.Register(Component.For<IFantasyMagician>().ImplementedBy<Wizard>());
         }
     }
 
@@ -36,4 +48,3 @@ namespace CastleExamples
         }
     }
 }
-
