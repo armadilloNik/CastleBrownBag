@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Marker Interface", "05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Constructor Injection", "06. Constructor Injection\06. Constructor Injection.csproj", "{5CB96743-0000-488B-A67C-DDC216A25FA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Property Injection", "07. Property Injection\07. Property Injection.csproj", "{A0E3C2BA-2973-432E-9C9D-30EBB4814D11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{5CB96743-0000-488B-A67C-DDC216A25FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB96743-0000-488B-A67C-DDC216A25FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB96743-0000-488B-A67C-DDC216A25FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E3C2BA-2973-432E-9C9D-30EBB4814D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E3C2BA-2973-432E-9C9D-30EBB4814D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E3C2BA-2973-432E-9C9D-30EBB4814D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E3C2BA-2973-432E-9C9D-30EBB4814D11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
