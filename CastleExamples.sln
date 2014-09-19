@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Basic Container", "CastleExamples\01. Basic Container.csproj", "{5C4BE7A9-48D0-433B-BDE0-C8B8C18F34FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Container", "CastleExamples\01. Container.csproj", "{5C4BE7A9-48D0-433B-BDE0-C8B8C18F34FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Basic Container with Installer", "02. Basic Container with Installer\02. Basic Container with Installer.csproj", "{2D76F28C-33A7-44FB-899D-A6018FE900BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Container with Installer", "02. Basic Container with Installer\02. Container with Installer.csproj", "{2D76F28C-33A7-44FB-899D-A6018FE900BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Configuration File", "03. Configuration File\03. Configuration File.csproj", "{8BA08A89-E4E6-4181-8746-41ECAC08A252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2D76F28C-33A7-44FB-899D-A6018FE900BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D76F28C-33A7-44FB-899D-A6018FE900BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D76F28C-33A7-44FB-899D-A6018FE900BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA08A89-E4E6-4181-8746-41ECAC08A252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA08A89-E4E6-4181-8746-41ECAC08A252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA08A89-E4E6-4181-8746-41ECAC08A252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA08A89-E4E6-4181-8746-41ECAC08A252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

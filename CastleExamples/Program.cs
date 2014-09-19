@@ -3,26 +3,26 @@
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 
+
 namespace CastleExamples
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var container = new WindsorContainer();
-
-            // should i expand this into more steps before i get to the help methods?
             container.Register(Component.For<IFantasyMagician>().ImplementedBy<Wizard>());
 
             var magician = container.Resolve<IFantasyMagician>();
-            Console.WriteLine(magician.Name);
+            
+            Console.WriteLine("The magician's name is: {0}", magician.Name);
 
             container.Dispose();
-
+            
             Console.ReadLine();
         }
     }
-  
+
     public interface IFantasyMagician
     {
         string Name { get; }
@@ -34,8 +34,9 @@ namespace CastleExamples
         {
             get
             {
-                return "Joey";
+                return "Hubert";
             }
         }
     }
 }
+
